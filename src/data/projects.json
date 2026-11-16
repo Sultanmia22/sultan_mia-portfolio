@@ -1,0 +1,94 @@
+[
+  {
+    "id": "techeasy",
+    "title": "TechEasy",
+    "subtitle": "Full Stack E-commerce",
+    "description": "A full-stack e-commerce platform with product management, secure authentication and Stripe payment integration.",
+    "fullDescription": "TechEasy is a comprehensive full-stack e-commerce application built with a Next.js frontend and an Express + MongoDB REST API backend. It delivers a complete online shopping experience with role-based dashboards, real-time analytics, and Bangladesh-specific checkout flow.",
+    "tech": ["Next.js", "Express.js", "MongoDB", "Stripe"],
+    "mainTech": ["Next.js", "React", "TypeScript", "Express.js", "MongoDB", "Stripe", "Tailwind CSS"],
+    "image": "https://i.ibb.co/bjFSm7Xv/Techeasy-home-page-photo.png",
+    "liveUrl": "https://techeasy-client.vercel.app/",
+    "githubUrl": "https://github.com/Sultanmia22/TechEasy-Client.git",
+    "role": "Full Stack Developer",
+    "type": "Personal Project",
+    "timeline": "4 Weeks Build",
+    "status": "Live Production",
+    "challenges": [
+      "Implementing dual authentication system with NextAuth.js (Credentials + Google OAuth) and syncing tokens with a separate Express backend via JWT",
+      "Building Bangladesh-specific checkout flow with district-based dynamic delivery charges (Dhaka vs. outside) and BDT currency Stripe integration",
+      "Creating role-based dashboards with separate admin and customer views powered by MongoDB aggregation pipelines for real-time analytics",
+      "Managing protected routes and auto sign-out on 401/403 responses across Next.js client and Express API with consistent JWT validation",
+      "Integrating multiple data-fetching strategies (TanStack React Query, Axios, SWR) and external services (Stripe, ImgBB, EmailJS) in a unified architecture"
+    ],
+    "futurePlans": [
+      "Add product review and rating system with verified purchase badges",
+      "Implement advanced search with filters by brand, price range, and specifications",
+      "Create coupon/discount system with admin-managed promo codes",
+      "Add real-time order tracking with delivery partner API integration",
+      "Build a seller/vendor registration system for multi-vendor marketplace support"
+    ]
+  },
+  {
+    "id": "trustcare",
+    "title": "TrustCare",
+    "subtitle": "Care Service Booking Platform",
+    "description": "A care service booking platform where users can find, book and manage trusted care services easily.",
+    "fullDescription": "TrustCare is a full-featured web application that connects families with trusted caregivers for children, elderly, and sick individuals. Users can browse care services, view details, and complete bookings with Stripe payment integration and automated email invoices.",
+    "tech": ["Next.js", "MongoDB", "Tailwind CSS"],
+    "mainTech": ["Next.js", "React", "NextAuth", "MongoDB", "Stripe", "React Hook Form", "Tailwind CSS"],
+    "image": "https://i.ibb.co/tMbdQN5x/image.png",
+    "liveUrl": "https://trust-care-pink.vercel.app/",
+    "githubUrl": "https://github.com/Sultanmia22/TrustCare.git",
+    "role": "Full Stack Developer",
+    "type": "Personal Project",
+    "timeline": "3 Weeks Build",
+    "status": "Live Production",
+    "challenges": [
+      "Implementing protected private routes with proper redirect logic after login/registration to return users to their intended booking page",
+      "Managing NextAuth session persistence across page reloads without errors in a Next.js SPA environment",
+      "Building a dynamic booking flow with cascading location selectors (Division → District → City → Area) using controlled form state",
+      "Calculating and displaying total cost in real-time based on selected duration × service charge per unit",
+      "Integrating Stripe payment gateway and creating bookings only after successful payment confirmation",
+      "Sending automated email invoices to users upon booking confirmation using a backend email service",
+      "Validating registration form with React Hook Form including NID, password strength, and duplicate email checks"
+    ],
+    "futurePlans": [
+      "Build a full Admin Dashboard with payment histories, booking management, and caretaker verification",
+      "Add real-time chat/messaging between caregivers and families for session coordination",
+      "Implement a review and rating system with detailed feedback after each completed care session",
+      "Add calendar integration for caregiver availability management and appointment scheduling",
+      "Create a caregiver profile page with certifications, experience, and background check badge"
+    ]
+  },
+  {
+    "id": "contesthub",
+    "title": "ContestHub",
+    "subtitle": "Contest Management Platform",
+    "description": "A contest hosting platform with role-based dashboards for admins, creators and participants.",
+    "fullDescription": "A comprehensive contest management platform built with the MERN stack. Users can browse and participate in creative contests (design, article writing, business ideas), contest creators can manage submissions, and admins oversee the entire platform with approval workflows.",
+    "tech": ["React", "Node.js", "MongoDB", "JWT"],
+    "mainTech": ["MongoDB", "Express.js", "React", "Node.js", "Tailwind CSS", "Firebase", "Stripe"],
+    "image": "https://i.ibb.co/8DYKGg7Q/Screenshot-2026-01-05-153044.png",
+    "liveUrl": "https://contesthub-a73a8.web.app",
+    "githubUrl": "https://github.com/Sultanmia22/Contest-hub-client.git",
+    "role": "Full Stack Developer",
+    "type": "Personal Project",
+    "timeline": "3 Weeks Build",
+    "status": "Live Production",
+    "challenges": [
+      "Implementing secure payment gateway integration for contest registration fees with transaction tracking",
+      "Managing complex role-based access control (Admin, Creator, Normal User) with protected routes and JWT authentication",
+      "Building real-time countdown timers for contest deadlines and managing contest lifecycle states (pending, approved, rejected, ended)",
+      "Optimizing database queries for contest search, filtering by types, and pagination with large datasets",
+      "Implementing submission management system where users submit task-related links and creators declare winners"
+    ],
+    "futurePlans": [
+      "Add advanced filtering by contest type, prize range, and deadline",
+      "Implement real-time notifications for submission status and winner announcements",
+      "Build analytics dashboard with participation trends and revenue charts",
+      "Add social sharing for contests to increase visibility",
+      "Create mobile app version with push notifications"
+    ]
+  }
+]

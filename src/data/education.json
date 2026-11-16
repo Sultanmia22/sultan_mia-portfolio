@@ -1,0 +1,20 @@
+[
+  {
+    "type": "Diploma",
+    "iconKey": "diploma",
+    "title": "Diploma in Engineering (Computer Science and Technology)",
+    "institution": "Bangladesh Technical Education Board (BTEB)",
+    "period": "2020 – 2025",
+    "badge": null,
+    "description": "Studied core software fundamentals, data structures, algorithms, and database systems."
+  },
+  {
+    "type": "Course",
+    "iconKey": "course",
+    "title": "Complete Web Development Course",
+    "institution": "Programming Hero",
+    "period": null,
+    "badge": "Certification",
+    "description": "Learned modern web technologies and full-stack development through hands-on projects."
+  }
+]

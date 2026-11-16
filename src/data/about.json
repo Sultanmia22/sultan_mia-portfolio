@@ -1,0 +1,16 @@
+{
+  "description": [
+    "I'm a fresher Full Stack Developer from Dhaka, Bangladesh. I enjoy turning ideas into clean, fast and user-friendly web applications with the MERN stack.",
+    "I've built full-stack projects including an e-commerce platform, a care service booking platform and a contest hosting platform, and I'm always learning and improving."
+  ],
+  "info": [
+    { "key": "location", "label": "Location", "value": "Dhaka, Bangladesh" },
+    { "key": "education", "label": "Education", "value": "Diploma in Computer Science & Technology (BTEB)" },
+    { "key": "certification", "label": "Certification", "value": "Complete Web Development, Programming Hero" }
+  ],
+  "stats": [
+    { "value": "3+", "label": "Projects", "highlight": false },
+    { "value": "MERN", "label": "Stack", "highlight": true },
+    { "value": "Open", "label": "to Work", "highlight": false }
+  ]
+}

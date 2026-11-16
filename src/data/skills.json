@@ -1,0 +1,22 @@
+[
+  {
+    "category": "Frontend",
+    "iconKey": "frontend",
+    "skills": ["HTML5", "CSS3", "JavaScript (ES6+)", "TypeScript", "React.js", "Next.js", "Redux", "Tailwind CSS"]
+  },
+  {
+    "category": "Backend",
+    "iconKey": "backend",
+    "skills": ["Node.js", "Express.js", "REST APIs", "JWT", "NextAuth.js", "Firebase Auth"]
+  },
+  {
+    "category": "Database",
+    "iconKey": "database",
+    "skills": ["MongoDB", "Mongoose", "PostgreSQL", "Prisma"]
+  },
+  {
+    "category": "Tools & Services",
+    "iconKey": "tools",
+    "skills": ["Git", "GitHub", "VS Code", "Postman", "Vercel", "Firebase", "Stripe"]
+  }
+]
