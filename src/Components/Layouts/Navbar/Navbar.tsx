@@ -5,6 +5,7 @@ import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
 import { X, Menu, Download } from "lucide-react";
 import Container from "@/Components/Ui/Container";
+import cvData from "@/data/cv.json";
 
 const navLinks = [
   { label: "Home", href: "#home" },
@@ -80,7 +81,7 @@ export default function Navbar() {
 
           {/* Desktop CTA */}
           <Link
-            href="/cv.pdf"
+            href={cvData.downloadUrl}
             download
             className="hidden md:flex items-center gap-2 bg-primary text-white text-sm font-medium px-5 py-2 rounded-full hover:bg-primary/80 transition-colors"
           >
